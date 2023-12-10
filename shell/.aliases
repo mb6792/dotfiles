@@ -37,8 +37,6 @@ alias o="open ."
 # List all files colorized in long format
 alias l="ls -laF"
 
-# PhpStorm
-alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
 
 # PHP
 alias switch-php80="brew unlink php@7.4 && brew link --overwrite --force php"
