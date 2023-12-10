@@ -190,7 +190,7 @@ defaults write com.apple.screencapture "name" -string "screenshot"
 defaults write com.apple.dock no-bouncing -bool true
 
 # Set the icon size of Dock items to 72 pixels
-defaults write com.apple.dock tilesize -int 72
+defaults write com.apple.dock tilesize -int 50
 
 # Hide indicator lights for open applications in the Dock
 defaults write com.apple.dock show-process-indicators -bool false
