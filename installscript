@@ -138,11 +138,6 @@ echo 'Install phpunit-watcher'
 echo '-----------------------'
 composer global require spatie/phpunit-watcher
 
-echo 'Install laravel valet'
-echo '---------------------'
-composer global require laravel/valet
-valet install
-
 echo 'Install mysql'
 echo '-------------'
 brew install mysql
